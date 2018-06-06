@@ -1,0 +1,7 @@
+*.user
+__history
+Win32
+*.identcache
+*.local
+*.~dsk
+/*.stat
