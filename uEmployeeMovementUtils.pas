@@ -53,7 +53,7 @@ const
 
 function GetRegKeyEmployeeMovements(): string;
 begin
-  Result:= Format(RegKeyEmployeeMovements, [SRootRegKeyName, SVendorName]);
+  Result:= Format(RegKeyEmployeeMovements, [SRootRegKeyName, SSembiumProductName]);
 end;
 
 function MovementInOutToInt(AValue: TMovementInOut): Integer;

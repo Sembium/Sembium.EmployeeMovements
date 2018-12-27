@@ -44,8 +44,8 @@ end;
 
 procedure TsvcEmployeeMovements.ServiceCreate(Sender: TObject);
 begin
-  Name:= StringReplace(Name, 'svc', 'svc' + SVendorName, []);
-  DisplayName:= SVendorName + ' ' + DisplayName;
+  Name:= StringReplace(Name, 'svc', 'svc' + SSembiumProductName, []);
+  DisplayName:= SSembiumProductName + ' ' + DisplayName;
 end;
 
 procedure TsvcEmployeeMovements.ServiceStart(Sender: TService; var Started: Boolean);

@@ -41,10 +41,10 @@ begin
 
   ConfigPath:= AConfigPath + ConfigPathConfiguration;
 
-  FSembiumConnectorLocatorURL:= ReadConfigStringValue(ConfigPath, SVendorName + ConfigValueSembiumConnectorLocatorURL);
-  FSembiumUserName:= ReadConfigStringValue(ConfigPath, SVendorName + ConfigValueSembiumUserName);
-  FSembiumPassword:= ReadConfigStringValue(ConfigPath, SVendorName + ConfigValueSembiumPassword);
-  FSembiumDatabase:= ReadConfigStringValue(ConfigPath, SVendorName + ConfigValueSembiumDatabase);
+  FSembiumConnectorLocatorURL:= ReadConfigStringValue(ConfigPath, SSembiumProductName + ConfigValueSembiumConnectorLocatorURL);
+  FSembiumUserName:= ReadConfigStringValue(ConfigPath, SSembiumProductName + ConfigValueSembiumUserName);
+  FSembiumPassword:= ReadConfigStringValue(ConfigPath, SSembiumProductName + ConfigValueSembiumPassword);
+  FSembiumDatabase:= ReadConfigStringValue(ConfigPath, SSembiumProductName + ConfigValueSembiumDatabase);
 end;
 
 procedure TSembiumConnectorDestination.DoAddEmployeeMovement(const AEmployeeMovement: TEmployeeMovement);
@@ -82,6 +82,6 @@ begin
 end;
 
 initialization
-  TEmployeeMovementEndpointTypeRepository.RegisterType(SVendorName + SSembiumConnectorDestinationTypeName, TSembiumConnectorDestination);
+  TEmployeeMovementEndpointTypeRepository.RegisterType(SSembiumProductName + SSembiumConnectorDestinationTypeName, TSembiumConnectorDestination);
 
 end.
