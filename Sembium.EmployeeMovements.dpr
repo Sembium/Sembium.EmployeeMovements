@@ -12,7 +12,6 @@ uses
   uEnumeratorUtils in '..\Sembium3\Common\uEnumeratorUtils.pas',
   uServerMessageIds in '..\Sembium3\Common\uServerMessageIds.pas',
   uRttiUtils in '..\Sembium3\Common\uRttiUtils.pas',
-  uClientProxies in '..\Sembium3\Server\uClientProxies.pas',
   uSystemLocaleUtils in '..\Sembium3\Common\uSystemLocaleUtils.pas',
   uEmployeeMovementDestination in 'uEmployeeMovementDestination.pas',
   uEmployeeMovementUtils in 'uEmployeeMovementUtils.pas',

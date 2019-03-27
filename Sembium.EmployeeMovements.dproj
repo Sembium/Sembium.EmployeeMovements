@@ -555,7 +555,6 @@
         <DCCReference Include="..\Sembium3\Common\uEnumeratorUtils.pas"/>
         <DCCReference Include="..\Sembium3\Common\uServerMessageIds.pas"/>
         <DCCReference Include="..\Sembium3\Common\uRttiUtils.pas"/>
-        <DCCReference Include="..\Sembium3\Server\uClientProxies.pas"/>
         <DCCReference Include="..\Sembium3\Common\uSystemLocaleUtils.pas"/>
         <DCCReference Include="uEmployeeMovementDestination.pas"/>
         <DCCReference Include="uEmployeeMovementUtils.pas"/>
