@@ -548,14 +548,14 @@
             <Form>svcEmployeeMovements</Form>
             <DesignClass>TService</DesignClass>
         </DCCReference>
-        <DCCReference Include="..\Sembium3\Common\uUtils.pas"/>
-        <DCCReference Include="..\Sembium3\Common\uNestProc.pas"/>
-        <DCCReference Include="..\Sembium3\Common\uFuncUtils.pas"/>
-        <DCCReference Include="..\Sembium3\Common\uParallelUtils.pas"/>
-        <DCCReference Include="..\Sembium3\Common\uEnumeratorUtils.pas"/>
-        <DCCReference Include="..\Sembium3\Common\uServerMessageIds.pas"/>
-        <DCCReference Include="..\Sembium3\Common\uRttiUtils.pas"/>
-        <DCCReference Include="..\Sembium3\Common\uSystemLocaleUtils.pas"/>
+        <DCCReference Include="..\src\Common\uUtils.pas"/>
+        <DCCReference Include="..\src\Common\uNestProc.pas"/>
+        <DCCReference Include="..\src\Common\uFuncUtils.pas"/>
+        <DCCReference Include="..\src\Common\uParallelUtils.pas"/>
+        <DCCReference Include="..\src\Common\uEnumeratorUtils.pas"/>
+        <DCCReference Include="..\src\Common\uServerMessageIds.pas"/>
+        <DCCReference Include="..\src\Common\uRttiUtils.pas"/>
+        <DCCReference Include="..\src\Common\uSystemLocaleUtils.pas"/>
         <DCCReference Include="uEmployeeMovementDestination.pas"/>
         <DCCReference Include="uEmployeeMovementUtils.pas"/>
         <DCCReference Include="uEmployeeMovementSource.pas"/>
@@ -574,7 +574,7 @@
         <DCCReference Include="Sembium.Connector.Utils\uLkJSON.pas"/>
         <DCCReference Include="Sembium.Connector.Utils\uIdentityModel.Constants.pas"/>
         <DCCReference Include="Sembium.Connector.Utils\uIdentityModel.TokenClient.pas"/>
-        <DCCReference Include="..\Sembium3\Common\uComputerInfo.pas"/>
+        <DCCReference Include="..\src\Common\uComputerInfo.pas"/>
         <DCCReference Include="..\App\EmployeeMovements\uApp.pas"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>
