@@ -8,7 +8,6 @@ uses
   uUtils in '..\src\Common\uUtils.pas',
   uNestProc in '..\src\Common\uNestProc.pas',
   uFuncUtils in '..\src\Common\uFuncUtils.pas',
-  uParallelUtils in '..\src\Common\uParallelUtils.pas',
   uEnumeratorUtils in '..\src\Common\uEnumeratorUtils.pas',
   uServerMessageIds in '..\src\Common\uServerMessageIds.pas',
   uRttiUtils in '..\src\Common\uRttiUtils.pas',

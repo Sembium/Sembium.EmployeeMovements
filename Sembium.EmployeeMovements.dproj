@@ -551,7 +551,6 @@
         <DCCReference Include="..\src\Common\uUtils.pas"/>
         <DCCReference Include="..\src\Common\uNestProc.pas"/>
         <DCCReference Include="..\src\Common\uFuncUtils.pas"/>
-        <DCCReference Include="..\src\Common\uParallelUtils.pas"/>
         <DCCReference Include="..\src\Common\uEnumeratorUtils.pas"/>
         <DCCReference Include="..\src\Common\uServerMessageIds.pas"/>
         <DCCReference Include="..\src\Common\uRttiUtils.pas"/>
