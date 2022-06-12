@@ -28,6 +28,7 @@ uses
   uIdentityModel.Constants in 'Sembium.Connector.Utils\uIdentityModel.Constants.pas',
   uIdentityModel.TokenClient in 'Sembium.Connector.Utils\uIdentityModel.TokenClient.pas',
   uComputerInfo in '..\src\Common\uComputerInfo.pas',
+  uRegistry in '..\src\Client\uRegistry.pas',
   uApp in '..\App\EmployeeMovements\uApp.pas';
 
 {$R *.RES}
