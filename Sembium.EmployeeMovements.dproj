@@ -574,6 +574,7 @@
         <DCCReference Include="Sembium.Connector.Utils\uIdentityModel.Constants.pas"/>
         <DCCReference Include="Sembium.Connector.Utils\uIdentityModel.TokenClient.pas"/>
         <DCCReference Include="..\src\Common\uComputerInfo.pas"/>
+        <DCCReference Include="..\src\Client\uRegistry.pas"/>
         <DCCReference Include="..\App\EmployeeMovements\uApp.pas"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>
