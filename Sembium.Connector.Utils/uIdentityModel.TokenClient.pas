@@ -66,7 +66,7 @@ uses
 {$ELSE}
   IdHTTP, System.Classes, IdSSLOpenSSL,
 {$ENDIF}
-  uIdentityModel.Constants, JclStrings;
+  uIdentityModel.Constants;
 
 { TTokenClient }
 

@@ -72,7 +72,7 @@ var
 implementation
 
 uses
-  SysUtils, Classes, JclStrings, System.StrUtils, System.Variants,
+  SysUtils, Classes, System.StrUtils, System.Variants,
   uIdentityModel.TokenClient,
 {$IFDEF USE_REST}
   REST.Client, REST.Types,
@@ -181,7 +181,7 @@ begin
           ConnectorServiceURLs:= Config.Values['URL'];
           for ConnectorServiceURL in SplitString(ConnectorServiceURLs, ';') do
             begin
-              Result:= StrTrimCharRight(ConnectorServiceURL, '/');
+              Result:= ConnectorServiceURL.TrimRight(['/']);
               if IsConnectorAvailable(Result) then
                 Exit;
             end;
